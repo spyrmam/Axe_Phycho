@@ -4,7 +4,7 @@
 if game:GetService("RunService"):IsClient() then error("Script must be server-side in order to work; use h/ and not hl/") end
 local Player,Mouse,mouse,UserInputService,ContextActionService = owner
 do
-	print("FE Compatibility code by Mokiros | Translated to FE by iPxter")
+	print("Doing your mom!")
 	script.Parent = Player.Character
 
 	--RemoteEvent for communicating
@@ -59,7 +59,7 @@ do
 	    end
 	end)
 	Event.Parent = NLS([==[
-	local Player = game:GetService("Players").LocalPlayer
+	local Player = owner
 	local Event = script:WaitForChild("UserInput_Event")
 
 	local UIS = game:GetService("UserInputService")
@@ -82,7 +82,7 @@ do
 		end
 	end]==],Player.Character)
 	Mouse,mouse,UserInputService,ContextActionService = m,m,UIS,CAS
- end
+end
 
 --script made by spyrmam
 
@@ -94,7 +94,7 @@ Cam = workspace.CurrentCamera
 Backpack = Player.Backpack
 Character = Player.Character
 Humanoid = Character.Humanoid
-Mouse = Player:GetMouse()
+--Mouse = Player:GetMouse()
 RootPart = Character["HumanoidRootPart"]
 Torso = Character["Torso"]
 Head = Character["Head"]
