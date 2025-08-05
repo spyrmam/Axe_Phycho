@@ -84,10 +84,6 @@ do
 	Mouse,mouse,UserInputService,ContextActionService = m,m,UIS,CAS
 end
 
---//====================================================\\--
---||			   CREATED BY SHACKLUSTER
---\\====================================================//--
-
 
 
 wait(0.2)
@@ -100,7 +96,6 @@ Cam = workspace.CurrentCamera
 Backpack = Player.Backpack
 Character = Player.Character
 Humanoid = Character.Humanoid
-Mouse = Player:GetMouse()
 RootPart = Character["HumanoidRootPart"]
 Torso = Character["Torso"]
 Head = Character["Head"]
